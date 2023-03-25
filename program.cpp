@@ -24,13 +24,13 @@ int main()
     int direction;
 
     xpos = 300;
-    ypos = 300;
+    ypos = 280;
     boundary_d = screen_height() - 50;
     boundary_u = -10;
     boundary_r = screen_width() - 100;
     boundary_l = -10;
     logo_color = rnd(12) + 1;
-    direction =  1;
+    direction =  rnd(4) + 1;
     // 1 = South East
     // 2 = North East
     // 3 = North West
