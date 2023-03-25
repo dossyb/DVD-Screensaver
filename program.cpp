@@ -25,8 +25,6 @@ int main()
 
     xpos = 300;
     ypos = 300;
-    // yaxis = screen_width() / 2;
-    // xaxis = screen_height() / 2;
     boundary_d = screen_height() - 50;
     boundary_u = -10;
     boundary_r = screen_width() - 100;
